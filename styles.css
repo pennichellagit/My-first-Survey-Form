@@ -1,0 +1,101 @@
+
+body{
+  width:97%;
+  height:88%;
+  margin:0;
+  /*background: linear-gradient(70deg, #559EC1, #B0CDDF,#B0B5C8);*/
+  background-image: url(https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+      background-size: cover;
+  font-family: Garamond;
+  font-size:20px;
+  padding:20px;
+}
+
+h1{
+  text-align:center;
+  color: #3091BB;
+  margin:1em auto;
+  text-shadow: 1px 1px grey;
+  font-size: 40px;
+  margin-bottom: 4px;
+}
+
+p[id="description"]{
+  text-align: center;
+  font-size: 19px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+.personal, .second, .box{
+  border-bottom: 2px solid #569FC2;
+}
+
+form {
+  width: 800px;
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+
+}
+
+input[id="name"], input[id="email"], input[id="number"]{
+  text-align:center;
+  display:block;
+  width:600px;
+  height:30px;
+  margin:auto;
+  
+}
+
+.personal{
+  display:block;
+  text-align:center;
+}
+
+input[type="radio"]{
+  display:inline;
+}
+
+select{
+  height: 25px;
+  margin-left: 10px;
+  text-align:center;
+}
+
+label[name="preference"], label[name="season"], label[name="place"],label[name="best-holiday"]{
+  text-align:center;
+  display:block;
+  margin:5px;
+
+}
+
+textarea{
+  display:block;
+  text-align:center;
+  margin:auto;
+  margin-top:6px;
+  width:600px;
+  height:10%;
+}
+
+fieldset{
+  border:none;
+}
+
+input[type="submit"]{
+  margin:1em auto;
+  display:block;
+  width:200px;
+  height:30px;
+  background-color: #DCDCE4;
+  border-color:pink;
+  border-width:1px;
+}
+
+img{
+  width:20px;
+  margin-top:-10px;
+  margin-bottom:-3px;
+}

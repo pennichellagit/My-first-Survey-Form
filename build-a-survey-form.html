@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css" /> 
+  <title>On vacation</title>
+</head>
+
+<body>
+  <main>
+<h1 id="title">Where do you go on vacation?</h1>
+
+<p id="description">Thank you for taking the time to fill in the survey.</p>
+
+<form id="survey-form">
+  <fieldset class="personal">
+  <label id="name-label" for="name"> Name</label>
+   <input required id="name" type="text" placeholder="Enter your name">
+
+  <label id="email-label" for="email">Email</label>
+<input required id="email" type="email" placeholder="Enter your mail">
+
+<label id="number-label" for="age"> Age </label><input id="number" type="number" min="10" max="100" placeholder="Your age">
+
+</fieldset>
+<fieldset class="second">
+
+<label name="season" for="dropdown"> <img name="primo" src="https://www.ascii-code.com/i/characters/Bullet.png">In which season do you prefer travel?<select id="dropdown"></label>
+<option>Select one</option>
+<option>Winter</option>
+<option>Spring</option>
+<option>Summer</option>
+<option>Autumn</option>
+  </select>
+
+  <label name="preference" for="preference"><img name="primo" src="https://www.ascii-code.com/i/characters/Bullet.png">Do you prefer to travel alone or in group?</label>
+    <label for="alone"><input id="alone" type="radio" name="preference" value="1">Alone</label>
+  <label for="group"> <input id="group" type="radio" name="preference" value="2">In group </label>
+
+  <label name="place" for="place"><img name="primo" src="https://www.ascii-code.com/i/characters/Bullet.png">My favorite destinations:</label>
+  <label for="mountain"><input id="mountain" type="checkbox" value="1">Mountain</label>
+  <label for="beach"><input id="beach" type="checkbox" value="2">The beach</label>
+  <label for="city"><input id="city" type="checkbox" value="3">City trips</label>
+ 
+ </fieldset>
+ <fieldset class="box">
+
+<label name="best-holiday" for="best-holiday">Tell us a bit about your best holiday!
+<textarea id="best-holiday" rows:"3" cols:"300" placeholder="This one time I went to Italy..."></textarea></label>
+</fieldset>
+
+<input id="submit" type="submit" value="Share it with us!">
+</form>
+  </main>
+  </body>
+  </html>
